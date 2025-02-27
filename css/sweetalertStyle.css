@@ -2,7 +2,7 @@
     background: rgba(255, 255, 255, 0.15); /* زيادة الشفافية قليلاً */
     backdrop-filter: blur(15px); /* زيادة تأثير الزجاج */
     -webkit-backdrop-filter: blur(15px); /* دعم لمتصفحات WebKit */
-    border-radius: 20px; /* جعل الزوايا أكثر انحناءً */
+    border-radius: 30px; /* جعل الزوايا أكثر انحناءً */
     box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2); /* تحسين الظل */
     padding: 20px 25px; /* تحسين التباعد الداخلي */
     color: #f1f1f1; /* لون النص أبيض فاتح ليظهر بشكل أوضح */
