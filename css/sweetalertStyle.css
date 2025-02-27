@@ -1,0 +1,37 @@
+.custom-swal-popup {
+    background: rgba(255, 255, 255, 0.15); /* زيادة الشفافية قليلاً */
+    backdrop-filter: blur(15px); /* زيادة تأثير الزجاج */
+    -webkit-backdrop-filter: blur(15px); /* دعم لمتصفحات WebKit */
+    border-radius: 20px; /* جعل الزوايا أكثر انحناءً */
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2); /* تحسين الظل */
+    padding: 20px 25px; /* تحسين التباعد الداخلي */
+    color: #f1f1f1; /* لون النص أبيض فاتح ليظهر بشكل أوضح */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* إضافة حدود شفافة لمظهر زجاجي أنيق */
+    text-align: center; /* توسيط النص داخل التنبيه */
+  }
+  
+  /* تحسين العنوان */
+  .custom-swal-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 5px 0; /* تقليل التباعد بين العنوان وباقي العناصر */
+    color: #fff;
+  }
+  
+  /* تحسين النص */
+  .custom-swal-text {
+    font-size: 16px;
+    margin: 5px 0;
+    line-height: 1.4;
+    color: #e0e0e0; /* لون أفتح للنص ليتناسب مع الخلفية الزجاجية */
+  }
+  
+  /* تحسين الصورة داخل التنبيه */
+  .custom-swal-image {
+    width: 100px !important;
+    height: auto !important;
+    object-fit: contain; /* للحفاظ على تناسب الصورة */
+    margin: 10px auto; /* توسيط الصورة */
+    display: block;
+  }
+  
